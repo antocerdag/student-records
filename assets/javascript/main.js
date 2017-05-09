@@ -1,10 +1,9 @@
-var productos = [];
-
-var addStudent = document.getElementById('nuevacompra');
-addCompra.onclick = function() {
-  var compra = prompt('Ingrese su nueva compra');
-  var cantidad = prompt('Ingrese la cantidad');
-  var product  = new Producto (compra, cantidad);
-  productos.push(product);
-  printHTML(product.toHTML());
+var addEstudiante = document.getElementById("nuevoestudiante");
+addEstudiante.onclick = function() {
+  var estudiante = prompt("Ingrese nuevo estudiante");
+  var techSkills = prompt("Ingrese porcentaje técnico");
+  var lifePoints = prompt("Ingrese habilidades socioemocionales");
+  var prueba = [];
+  prueba.push(estudiante,techSkills,lifePoints);
+  printHTML(prueba[i].toHTML());
 };
