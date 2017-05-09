@@ -7,5 +7,8 @@
 function imprimirTodo(nuevaEstudiante){
 	var arrayEstudiante = [];
 	arrayEstudiante.push(nuevaEstudiante);
-	var ficha = "<div>" + "Nombre: " + nuevaEstudiante.nombre + "<br>" + "Tech Skills: " + nuevaEstudiante.techSkill + "%" + "<br>" + "Life Skills: " + nuevaEstudiante.lifeSkill + "%" + "Status: " + nuevaEstudiante.actividad + "</div>"
+	var ficha = 
+	arrayEstudiante.forEach(function(element){
+		cosa.innerHTML = "<div>" + "Nombre: " + element.nombre + "<br>" + "Tech Skills: " + element.techSkill + "%" + "<br>" + "Life Skills: " + element.lifeSkill + "%" + "Status: " + element.actividad + "</div>"
+	});
 } 
