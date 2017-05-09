@@ -15,10 +15,10 @@ function imprimirTodo(nuevaEstudiante){
 } 
 
 
-function AddStudent(name, tech-skills, life-skills, status) {
+function AddStudent(name, techSkills, lifePoints, status) {
   this.name = name;
-  this.tech-skills = tech-skills ;
-  this.life-skills = life-skills;
+  this.techSkills = techSkills ;
+  this.lifePoints = lifePoints;
   this.status = status;
 
 
@@ -26,11 +26,11 @@ function AddStudent(name, tech-skills, life-skills, status) {
 
 var addEstudiante = document.getElementById("nuevoestudiante");
 addEstudiante.onclick = function() {
-  var estudiante = prompt("Ingrese nuevo estudiante");
+  var name = prompt("Ingrese nuevo estudiante");
   var techSkills = prompt("Ingrese porcentaje técnico");
   var lifePoints = prompt("Ingrese habilidades socioemocionales");
   var status = prompt("Ingrese status");
-  var student = new AddStudent (estudiante,techSkills,lifePoints,status);
+  var student = new AddStudent (name,techSkills,lifePoints,status);
   var prueba = [];
   prueba.push(student);
 };
