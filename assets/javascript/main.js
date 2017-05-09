@@ -13,6 +13,7 @@
 }*/
 
 var arrayEstudiante = [];
+var memoria = 
 
 var addEstudiante = document.getElementById("nuevoestudiante");
 addEstudiante.onclick = function() {
