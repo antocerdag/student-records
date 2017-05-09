@@ -9,7 +9,7 @@ function Estudiante(name,techSkill,lifePoints,status){
 
 function addStudent(){
   
-  var name = prompt("Ingrese nuevo estudiante").toLowerCase();
+  var name = prompt("Ingrese nuevo estudiante");
   var techSkill = prompt("Ingrese porcentaje técnico");
   var lifePoints = prompt("Ingrese habilidades socioemocionales");
   var status = prompt("Ingrese status");
