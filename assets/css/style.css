@@ -5,6 +5,10 @@ background-color: #ffb600;
 }
 
 
+h2{
+  font-family: Helvetica
+}
+
 button{
 border:1px solid #d7dada; -webkit-border-radius: 3px; 
 -moz-border-radius: 3px;border-radius: 3px;font-size:12px;
@@ -27,10 +31,5 @@ button:hover{
  background-image: -ms-linear-gradient(top, #d9dddd, #c6c3c3);
  background-image: -o-linear-gradient(top, #d9dddd, #c6c3c3);
  background-image: linear-gradient(to bottom, #d9dddd, #c6c3c3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d9dddd, endColorstr=#c6c3c3);
-}
-
-
-h1{
-	font-family: Helvetica
 }
 
