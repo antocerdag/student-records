@@ -4,6 +4,12 @@ background-color: #ffb600;
 
 }
 
+img{
+	margin-left: 8px;
+	margin-bottom: 20px;
+	width: 150px;
+}
+
 
 button{
 border:1px solid #d7dada; -webkit-border-radius: 3px; 
@@ -30,7 +36,8 @@ button:hover{
 }
 
 
-h1{
+h2{
 	font-family: Helvetica
+	margin-left: 45px;
 }
 
