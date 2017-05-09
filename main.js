@@ -7,8 +7,8 @@
 function imprimirTodo(nuevaEstudiante){
 	var arrayEstudiante = [];
 	arrayEstudiante.push(nuevaEstudiante);
-	var ficha = 
+	var ficha = document.getElementById("/*id del boton PrintAll*/");
 	arrayEstudiante.forEach(function(element){
-		cosa.innerHTML = "<div>" + "Nombre: " + element.nombre + "<br>" + "Tech Skills: " + element.techSkill + "%" + "<br>" + "Life Skills: " + element.lifeSkill + "%" + "Status: " + element.actividad + "</div>"
+		ficha.innerHTML = "<div>" + "Nombre: " + element.nombre + "<br>" + "Tech Skills: " + element.techSkill + "%" + "<br>" + "Life Skills: " + element.lifeSkill + "%" + "Status: " + element.actividad + "</div>"
 	});
 } 
