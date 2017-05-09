@@ -12,6 +12,8 @@
   this.status = status;
 }*/
 
+var arrayEstudiante = [];
+
 var addEstudiante = document.getElementById("nuevoestudiante");
 addEstudiante.onclick = function() {
   var name = prompt("Ingrese nuevo estudiante");
@@ -19,12 +21,16 @@ addEstudiante.onclick = function() {
   var lifePoint = prompt("Ingrese habilidades socioemocionales");
   var status = prompt("Ingrese status");
   //var student = new AddStudent (name,techSkills,lifePoints,status);
-  var prueba = {};
-  prueba.push(student);
+  var Student = {};
+	Student["name"] = name;
+	Student["techSkill"] = techSkill;
+	Student["lifePoint"] = lifePoint;
+	Student["status"] = status;
+	
+  arrayEstudiante.push(Student);
 };
 
 function imprimirTodo(nuevaEstudiante){
-	var arrayEstudiante = [];
 	arrayEstudiante.push(nuevaEstudiante);
 	var ficha = document.getElementById("botonprint");
 	arrayEstudiante.forEach(function(element){
